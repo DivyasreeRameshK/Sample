@@ -1,0 +1,51 @@
+check the string is palindrome or not
+s=input('enter a sentence')
+str=s[::-1]
+if s=str:
+	print("palindrome")
+else:   
+	print("not palindrome")
+
+#using python
+# I like python
+# * l*k* pyth*n
+
+s=input("Enter a sentence")
+v='aeiouAEIOU'
+str=' '
+for i in s:
+	if i in v:
+		res+='*'
+	else:
+		res+=i
+print(res)
+ 
+
+
+import random
+jackpot= random.randint(1,20)
+num=int(input('Enter the number'))
+c=1
+while jackpot!=num:
+	if num<jackpot:
+		print('Choose the Higher!!')
+	else:
+		print('Choose the Lower!!')
+	num=int(input("Enter the number"))
+	c+=1
+
+else:
+	print("You won the game and your number",num)
+	print("Your attempt",c)
+
+
+
+
+
+
+
+
+
+
+
+    
